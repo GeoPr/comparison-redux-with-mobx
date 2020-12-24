@@ -1,0 +1,70 @@
+.posts {
+  // .posts__post
+  &__post {
+    background: #eee;
+    color: #000;
+    border-radius: 10px;
+    padding: 30px;
+  }
+}
+.post {
+  display: grid;
+  row-gap: 10px;
+  // .post__username
+  &__username {
+    font-size: 18px;
+  }
+  // .post__item
+  &__item {
+    display: grid;
+    row-gap: 10px;
+  }
+  // .post__image
+  &__image {
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+  }
+  // .post__body
+  &__body {
+    font-size: 25px;
+  }
+  // .post__actions
+  &__actions {
+    display: flex;
+    align-items: center;
+  }
+  // .post__like
+  &__like {
+    display: flex;
+    align-items: center;
+  }
+  // .post__count
+  &__count {
+    margin: 0px 10px 0px 0px;
+    font-size: 20px;
+  }
+  // .post__comment
+  &__comment {
+    display: grid;
+    grid-template: 1fr / 300px 50px;
+    column-gap: 30px;
+  }
+  // .post__comments
+  &__comments {
+    display: grid;
+    row-gap: 10px;
+    padding: 0px 0px 0px 50px;
+    li {
+      justify-self: start;
+      padding: 20px 100px 20px 20px;
+      background: #333;
+      color: #fff;
+      border-radius: 10px;
+    }
+  }
+}
+.comment-post {
+}

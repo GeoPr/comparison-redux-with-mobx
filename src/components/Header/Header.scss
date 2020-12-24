@@ -1,0 +1,31 @@
+.header {
+	background: #233223;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	// .header__body
+	&__body {
+		height: 80px;
+		padding: 0px 100px;
+		display: flex;
+		align-items: center;
+	}
+	// .header__nav
+	&__nav {
+		flex: 1 1 auto;
+	}
+	// .header__menu
+	&__menu {
+		flex: 1 1 auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		li {
+			a {
+				font-size: 1.5rem;
+			}
+		}
+	}
+}

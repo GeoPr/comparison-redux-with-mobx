@@ -1,0 +1,3 @@
+export const CREATE_POST = 'CREATE_POST';
+export const UPDATE_LIKES = 'UPDATE_LIKES';
+export const CREATE_COMMENT = 'CREATE_COMMENT';
